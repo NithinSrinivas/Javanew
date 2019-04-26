@@ -1,0 +1,35 @@
+class IBM
+{
+void testing()
+{
+System.out.println("Having Opening");
+}
+}
+
+class Uncle
+{
+public static void main (String []args)
+	{
+	IBM a1= new IBM();
+/*IBM a2= new IBM();*/
+	
+Boy.needjob(a1);
+Girl.needjob(a1);
+}
+}
+
+class Boy
+{
+static void needjob(IBM a2)
+{
+a2.testing();
+}
+}
+
+class Girl
+{
+static void needjob(IBM a3)
+{
+a3.testing();
+}
+}

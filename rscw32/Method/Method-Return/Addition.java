@@ -1,0 +1,15 @@
+class Addition
+{
+static int add()
+{
+int a = 5;
+int b = 5;
+int c = a+b;
+return c;
+}
+public static void main (String [] args)
+{
+int d = add();
+System.out.println(d);
+}
+}

@@ -1,0 +1,22 @@
+class Sector
+
+{
+
+static void area ()
+
+{
+int r =10;
+int o = 10;
+double result = (r*r)*o)/2;
+System.out.println(result);
+}
+
+public static void main(String []args)
+
+{
+System.out.println("***Main Start***");
+area();
+System.out.println("***Main Ends***");
+}
+
+}

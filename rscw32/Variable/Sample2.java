@@ -1,0 +1,20 @@
+class Sample2//Define car name, car color, car price 
+
+{
+
+public static void main(String []args)
+
+{
+
+String name = "Subaru";
+int car_price = 1000;
+String color = "Blue";
+
+System.out.println(name);
+System.out.println(car_price);
+System.out.println("The car color is " + color);
+
+}
+
+}
+

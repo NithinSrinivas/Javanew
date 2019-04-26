@@ -1,0 +1,29 @@
+class Data
+{
+void type(int a)
+{
+System.out.println(a);
+}
+
+void type(char b)
+{
+System.out.println(b);
+}
+
+void type(String c)
+{
+System.out.println(c);
+}
+}
+
+
+class Main2
+{
+public static void main (String []args)
+{
+Data d1 = new Data();
+d1.type(1);
+d1.type("a");
+d1.type("ABC");
+}
+}

@@ -1,0 +1,19 @@
+class Course //Define course name, fees, college
+
+{
+
+public static void main (String [] args )
+
+{
+
+Stng Cname = "SJRC";
+string Ccourse = "Java";
+int Cfees = 10000;
+
+System.out.println(Cname);
+System.out.println(Ccourse);
+System.out.println(Cfees);
+
+}
+
+}
